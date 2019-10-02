@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            Task Manager
+        </title>
+        <link rel="stylesheet"  href="task.css">
+        <script src="task1.js"></script>
+    </head>
+<body>
+    <div class="container" >
+        <div style="background-color: royalblue justify-content:center">
+        <input placeholder=" ADD TASK " type="text" id="textid">
+
+        </div> 
+        <div class="add-btn" onclick="addTask()">
+            ADD
+        </div>
+    </div>
+
+
+        <div class="ref-container">
+            <div class="task" style="visibility: hidden" >A</div>
+            <div class="task" onclick="deletetask(this)" style="justify-content:center; visibility:hidden;"> 
+                DEL
+            </div>
+
+        </div>
+    
+
+
+</body>
+
+
+</html>
